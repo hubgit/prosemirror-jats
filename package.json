@@ -4,7 +4,7 @@
   "description": "A ProseMirror parser for JATS XML",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -r dist && tsc",
+    "build": "rm -rf dist && tsc",
     "dev": "tsc --watch"
   },
   "keywords": [
