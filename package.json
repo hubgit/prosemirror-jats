@@ -1,0 +1,33 @@
+{
+  "name": "prosemirror-jats",
+  "version": "1.0.0",
+  "description": "A ProseMirror parser for JATS XML",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -r dist && tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "jats",
+    "prosemirror"
+  ],
+  "author": "Alf Eaton",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mathjax-full": "^3.2.2",
+    "mime": "^4.0.1",
+    "prosemirror-model": "^1.20.0",
+    "w3c-xmlserializer": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/w3c-xmlserializer": "^2.0.4",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
